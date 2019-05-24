@@ -1,0 +1,77 @@
+
+
+
+/************* Product ********/
+.products .card{
+    min-height: inherit;
+    box-shadow: 0 0 4px #b3b3b3;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+
+}
+.products .card a:hover strong{
+    font-weight: 600
+}
+.product{
+  background:#fff 
+}
+.f-sidebar a h4 {
+    color: #212529;
+}
+.f-sidebar a h4 i{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.f-sidebar a h4 i:before{
+  content: "\f106"; 
+}
+.f-sidebar a[aria-expanded="true"] h4 i:before{
+  content: "\f107"
+}
+
+/********** product detail *************/
+.slider_pro{
+    background: #EFEEF4;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.specifications{
+    background: #EFEEF4;
+}
+.slider_pro:after{
+    position: absolute;
+    bottom: -100px;
+    width: 120%;
+    height: 150px;
+    background-color: white;
+    content: ' ';
+    left: 50%;
+    margin-left: -60%;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: 1;
+    outline: 1px solid transparent;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card-header{
+    background:transparent;
+    padding-left:0;
+}
+.price span:before{
+   /* content:"$";*/
+    display:inline-block;
+    margin-right:2px;
+
+}
+/********** product detail *************/
+/************** profile ***********/
+

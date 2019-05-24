@@ -1,0 +1,15 @@
+.jq-tooltip {	 
+	position: absolute;
+	z-index: 999999;
+	transition-duration: .3s;
+	transition-property: background, opacity, -webkit-transform;
+	transition-property: background, transform, opacity;
+	transition-property: background, transform, opacity, -webkit-transform;
+	opacity: 0;
+	box-sizing: border-box;
+	
+}
+
+.jq-tooltip.tooltip-active {
+	opacity: 1
+}
